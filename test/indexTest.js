@@ -47,3 +47,7 @@ describe("index", () => {
     });
   });
 });
+
+function returnsAnAnonymousFunction() {
+  return function() {};
+}
